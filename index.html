@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-logo">SITE<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle">&#9776;</button>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="hero-eyebrow">Welcome to my website</p>
+            <h1 class="hero-title">Build Something <em>Beautiful</em></h1>
+            <p class="hero-sub">A clean, modern starting point for your next web project — crafted with care and ready
+                to grow.</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">Explore</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-decoration">
+            <div class="circle c1"></div>
+            <div class="circle c2"></div>
+            <div class="circle c3"></div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-label">About</div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Crafted with purpose,<br /><em>designed to last.</em></h2>
+                    <p>This template is a clean foundation for any kind of website — a portfolio, a product landing
+                        page, or a personal blog. Every element is intentional, every pixel considered.</p>
+                    <p>Edit the HTML, CSS, and JS files to make it your own. The structure is simple and well-commented
+                        so you can hit the ground running.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Core files</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Responsive</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Dependencies</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-label">Services</div>
+            <h2 class="section-title">What we offer</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">◈</div>
+                    <h3>Design</h3>
+                    <p>Beautiful, thoughtful interfaces that delight users and communicate your brand clearly.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">⟡</div>
+                    <h3>Development</h3>
+                    <p>Clean, maintainable code that performs well and scales with your needs over time.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">◎</div>
+                    <h3>Strategy</h3>
+                    <p>Thoughtful planning and architecture so your project stays on track from day one.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-label">Contact</div>
+            <h2 class="section-title">Let's talk</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <input type="text" placeholder="Your name" required />
+                    <input type="email" placeholder="Your email" required />
+                </div>
+                <textarea placeholder="Your message" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message →</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 My Website. Built with HTML, CSS & JS.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
